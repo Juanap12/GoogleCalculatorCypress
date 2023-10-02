@@ -23,7 +23,7 @@ You could either open the Cypress server which grants you a GUI to see the diffe
 1. Open a terminal over the root folder of the project
 2. Use `npm start`
 3. A new Cypress GUI window should open. If it's your first time, it might show you a feed with the latest news from Cypress. Skip them and you should be redirected to a screen where you can select between "E2E Testing" and "Component Testing". Select "E2E Testing"
-4. Choose a browser. For example, Chrome
+4. Choose a browser. For example, Chrome. The available browsers depend on the ones you previously installed to your computer.
 5. Click on "Start E2E Testing in <browser_name>"
 6. A new window on the previously selected browser should open. Under the "Specs" tab, you should see a list of the available feature files to execute. Click on any one
 7. Automatically, the test scenarios from that feature file should start running. You will be able to see each step from the scenario and if the test passed or failed
