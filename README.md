@@ -18,6 +18,8 @@ Run `npm install` to install the project dependencies
 
 You could either open the Cypress server which grants you a GUI to see the different test executions or you could run tests entirely from the terminal.
 
+Using the Cypress server GUI allows you to see a more detailed view of the test cases. With a live preview of the execution.
+
 ### Using Cypress server
 
 1. Open a terminal over the root folder of the project
