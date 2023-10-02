@@ -18,7 +18,7 @@ Run `npm install` to install the project dependencies
 
 You could either open the Cypress server which grants you a GUI to see the different test executions or you could run tests entirely from the terminal.
 
-Using the Cypress server GUI allows you to see a more detailed view of the test cases. With a live preview of the execution.
+Using the Cypress server GUI allows you to see a more detailed view of the test cases.
 
 ### Using Cypress server
 
@@ -33,9 +33,9 @@ Using the Cypress server GUI allows you to see a more detailed view of the test 
 ### Using the terminal
 
 1. Open a terminal over the root folder of the project
-2. Use `npx cypress run --browser <desired_browser>`, where "desired_browser" is set to the browser you want to use to execute the test cases. e.g. `npx cypress run --browser chrome`. This will run all the feature files in the same run.
+2. Use `npx cypress run --headed --browser <desired_browser>`, where "desired_browser" is set to the browser you want to use to execute the test cases. e.g. `npx cypress run --headed --browser chrome`. This will run all the feature files in the same run.
 
-    - If you want to execute an specific feature file, you can pick any of the available feature files at `cypress/e2e/features` and add it to the previous command as `npx cypress run --browser <desired_browser> --spec <feature_file_path>`. e.g. `npx cypress run --browser chrome --spec "cypress/e2e/features/addition.feature"`
+    - If you want to execute an specific feature file, you can pick any of the available feature files at `cypress/e2e/features` and add it to the previous command as `npx cypress run --headed --browser <desired_browser> --spec <feature_file_path>`. e.g. `npx cypress run --headed --browser chrome --spec "cypress/e2e/features/addition.feature"`
 3. On the logs from the terminal, you will be able to see the result of each of the scenarios and if any of them fails, you will see the corresponding error.
 
 ### Common tips
